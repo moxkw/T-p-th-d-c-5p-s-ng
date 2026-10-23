@@ -1,0 +1,27 @@
+CÁCH CÀI ỨNG DỤNG "LỊCH TẬP 5 PHÚT" ĐỂ DÙNG OFFLINE TRÊN IPHONE
+
+Ứng dụng web này cần được đặt trên một địa chỉ web (https) một lần. Sau khi cài vào màn hình chính, nó chạy được khi tắt mạng.
+
+BƯỚC 1. Đưa lên web (làm trên máy tính, miễn phí, khoảng 2 phút)
+  Cách dễ nhất: Netlify Drop
+  1. Giải nén file zip này, được thư mục "lich-tap-5-phut".
+  2. Vào https://app.netlify.com/drop (đăng ký tài khoản miễn phí nếu được hỏi).
+  3. Kéo cả thư mục "lich-tap-5-phut" thả vào trang.
+  4. Netlify cho bạn một địa chỉ dạng https://ten-ngau-nhien.netlify.app
+
+  Cách khác: GitHub Pages (tạo kho lưu trữ, tải các file lên, bật Pages trong Settings).
+
+BƯỚC 2. Cài vào iPhone (khi còn mạng)
+  1. Mở địa chỉ trên bằng Safari (bắt buộc dùng Safari).
+  2. Đợi trang tải xong, bấm nút Chia sẻ, chọn "Thêm vào Màn hình chính", rồi bấm Thêm.
+  3. Mở ứng dụng từ biểu tượng trên màn hình chính ít nhất một lần khi còn mạng.
+
+BƯỚC 3. Dùng offline
+  Từ lần sau, mở từ biểu tượng trên màn hình chính. Tắt mạng vẫn chạy.
+
+GIỌNG ĐỌC TIẾNG VIỆT OFFLINE
+  Cài đặt > Trợ năng > Nội dung được đọc > Giọng nói > Tiếng Việt, tải một giọng về máy.
+  Nếu không có giọng này, tiếng bíp vẫn hoạt động.
+
+CẬP NHẬT PHIÊN BẢN
+  Khi sửa file index.html, đổi số trong sw.js (dòng var CACHE="tap5phut-v1") thành v2, v3... rồi tải lại lên.
